@@ -35,6 +35,14 @@ figcaption {
   color: white;
 }
 
-span{
+span {
  background-color: yellow;
+}
+
+h2 {
+  color:gray
+}
+
+h3 {
+  color:gray
 }
