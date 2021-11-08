@@ -15,8 +15,7 @@ html {
   height: 80px;
 }
 
-#table {
-  border: none;
+table {
   text-align: left;
   border-collapse: collapse;
 }
