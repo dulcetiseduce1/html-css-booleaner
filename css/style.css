@@ -1,37 +1,35 @@
-html{
-    font:time new roman;
+html {
+  font: time new roman;
 }
 
-.top{
-    background-image: url('../img/pattern.png');
-    background-repeat: repeat;
-    background-position: center;
-    background-size: 300px;
-    background-color: cornflowerblue;
-    background-position: 0px 300px;
-
+.top {
+  background-image: url("../img/pattern.png");
+  background-repeat: repeat;
+  background-position: center;
+  background-size: 300px;
+  background-color: cornflowerblue;
+  background-position: 0px 300px;
 }
 
-#logo{
-    height: 80px;
+#logo {
+  height: 80px;
 }
 
-#table{
-    border:none;
-    text-align: left;
-    border-collapse: collapse;
-    
+#table {
+  border: none;
+  text-align: left;
+  border-collapse: collapse;
 }
 
 tr:nth-child(odd) {
-    background-color:rgb(126, 236, 255);
+  background-color: rgb(126, 236, 255);
 }
 
-th{
-    color:white;
-    background-color: rgb(56, 142, 255);
+th {
+  color: white;
+  background-color: rgb(56, 142, 255);
 }
-figcaption{
-    position: absolute;
-    color:white;
+figcaption {
+  position: absolute;
+  color: white;
 }
