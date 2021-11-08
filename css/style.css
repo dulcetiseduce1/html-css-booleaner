@@ -29,7 +29,12 @@ th {
   color: white;
   background-color: rgb(56, 142, 255);
 }
+
 figcaption {
   position: absolute;
   color: white;
+}
+
+span{
+ background-color: yellow;
 }
