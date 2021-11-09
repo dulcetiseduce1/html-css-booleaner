@@ -22,18 +22,13 @@ table {
   border-collapse: collapse;
 }
 
-tr:nth-child(odd) {
+.row {
   background-color: rgb(126, 236, 255);
 }
 
 th {
   color: white;
   background-color: rgb(56, 142, 255);
-}
-
-.text-white {
-  position: absolute;
-  color: white;
 }
 
 h1 {
@@ -44,10 +39,24 @@ time {
   color: gray;
 }
 
+ul{
+  padding-inline-start: 0;
+  list-style-position:inside;
+}
+
+.w-50{
+  width: 50%;
+}
+
 .text-lightblue {
   color: lightskyblue;
 }
 
 .text-yellow {
   background-color: yellow;
+}
+
+.text-white {
+  position: absolute;
+  color: white;
 }
