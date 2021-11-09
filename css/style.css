@@ -2,19 +2,9 @@ html {
   font: time new roman;
 }
 
-body {
+body,
+figure {
   margin: 0;
-}
-
-.top {
-  background-image: url("../img/pattern.png");
-  background-position: center;
-  background-color: cornflowerblue;
-  background-size: 60%;
-}
-
-#logo {
-  height: 80px;
 }
 
 table {
@@ -22,9 +12,6 @@ table {
   border-collapse: collapse;
 }
 
-.row {
-  background-color: rgb(126, 236, 255);
-}
 
 th {
   color: white;
@@ -35,17 +22,40 @@ h1 {
   font-size: 38;
 }
 
-time {
-  color: gray;
-}
 
-ul{
+ul {
   padding-inline-start: 0;
-  list-style-position:inside;
+  list-style-position: inside;
 }
 
-.w-50{
+#logo {
+  height: 80px;
+  margin-left: 15%;
+}
+
+.top {
+  background-image: url("../img/pattern.png");
+  background-position: center;
+  background-color: cornflowerblue;
+  background-size: 60%;
+}
+
+.container {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+
+.row {
+  background-color: rgb(126, 236, 255);
+}
+
+.w-50 {
   width: 50%;
+}
+
+.text-gray {
+  color: gray;
 }
 
 .text-lightblue {
