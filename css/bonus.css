@@ -1,0 +1,88 @@
+html {
+  font: time new roman;
+}
+
+body,
+figure{
+  margin: 0;
+}
+
+table {
+  text-align: left;
+  border-collapse: collapse;
+}
+
+h1 {
+  font-size: 40px;
+  padding: 0px;
+  margin: 0px;
+}
+
+th {
+  color: white;
+  background-color: rgb(56, 142, 255);
+}
+
+ul {
+  padding-inline-start: 0;
+  list-style-position: inside;
+}
+
+footer{
+  padding-top: 40px;
+  padding-bottom:40px;
+}
+
+.tim{
+  padding-bottom: 20px;
+}
+
+.time {
+  padding-bottom: 20px;
+}
+
+#logo {
+  height: 80px;
+  margin-left: 15%;
+}
+
+.top {
+  background-image: url("../img/pattern.png");
+  background-position: center;
+  background-color: cornflowerblue;
+  background-size: 60%;
+}
+
+.container {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.row {
+  background-color: rgb(126, 236, 255);
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.text-gray {
+  color: gray;
+}
+
+.text-lightblue {
+  color: lightskyblue;
+}
+
+.text-yellow {
+  background-color: yellow;
+}
+
+.text-white {
+  position: absolute;
+  color: white;
+}
+
+.top-header{
+  padding-bottom: 40px;
+}
