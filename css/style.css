@@ -3,7 +3,7 @@ html {
 }
 
 body,
-figure {
+figure{
   margin: 0;
 }
 
@@ -23,12 +23,18 @@ th {
 
 h1 {
   font-size: 38;
+  padding: 0px;
+  margin: 0px;
 }
 
 
 ul {
   padding-inline-start: 0;
   list-style-position: inside;
+}
+
+.time {
+  padding-bottom: 40px;
 }
 
 #logo {
@@ -72,4 +78,8 @@ ul {
 .text-white {
   position: absolute;
   color: white;
+}
+
+.top-header{
+  padding-bottom: 40px;
 }
