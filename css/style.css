@@ -2,13 +2,15 @@ html {
   font: time new roman;
 }
 
+body {
+  margin: 0;
+}
+
 .top {
   background-image: url("../img/pattern.png");
-  background-repeat: repeat;
   background-position: center;
-  background-size: 300px;
   background-color: cornflowerblue;
-  background-position: 0px 300px;
+  background-size: 60%;
 }
 
 #logo {
@@ -29,19 +31,23 @@ th {
   background-color: rgb(56, 142, 255);
 }
 
-figcaption {
+.text-white {
   position: absolute;
   color: white;
 }
 
-span {
- background-color: yellow;
+h1 {
+  font-size: 38;
 }
 
-h2 {
-  color:gray
+time {
+  color: gray;
 }
 
-h3 {
-  color:gray
+.text-lightblue {
+  color: lightskyblue;
+}
+
+.text-yellow {
+  background-color: yellow;
 }
