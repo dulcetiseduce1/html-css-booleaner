@@ -14,6 +14,8 @@ table {
 
 h1 {
   font-size: 40px;
+  padding: 0px;
+  margin: 0px;
 }
 
 th {
@@ -21,20 +23,21 @@ th {
   background-color: rgb(56, 142, 255);
 }
 
-h1 {
-  font-size: 38;
-  padding: 0px;
-  margin: 0px;
-}
-
-
 ul {
   padding-inline-start: 0;
   list-style-position: inside;
 }
 
+footer{
+  padding-top: 40px;
+}
+
+.tim{
+  padding-bottom: 20px;
+}
+
 .time {
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 #logo {
@@ -53,7 +56,6 @@ ul {
   width: 1080px;
   margin: 0 auto;
 }
-
 
 .row {
   background-color: rgb(126, 236, 255);
