@@ -12,6 +12,9 @@ table {
   border-collapse: collapse;
 }
 
+h1 {
+  font-size: 40px;
+}
 
 th {
   color: white;
